@@ -3,11 +3,11 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="600"
-        android:font="@font/Lexend_SemiBold"/>
+        android:font="@font/lexend_semibold"/>
     <font
         android:fontStyle="normal"
         android:fontWeight="500"
-        android:font="@font/Lexend_Medium"/>
+        android:font="@font/lexend_medium"/>
 
 
 </font-family>
