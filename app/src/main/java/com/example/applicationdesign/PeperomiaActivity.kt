@@ -1,21 +1,20 @@
 package com.example.applicationdesign
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class PeperomiaActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.peperomia_houseplant)
     }
-    fun onClick(view: View) {
+
+    fun onReverse(view: View) {
         // Créer une intention pour naviguer vers la nouvelle mise en page (PeperomiaActivity)
-        val intent = Intent(this, PeperomiaActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
-
 }
-

@@ -223,7 +223,9 @@
             android:src="@drawable/_5_arrow_right_2"
             app:iconPadding="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"></ImageButton>
+            app:layout_constraintEnd_toEndOf="parent"
+            android:clickable="true"
+            android:onClick="onClick"></ImageButton>
 
         <ImageView
             android:id="@+id/imageView5"

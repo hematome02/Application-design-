@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/vert1"/>
+
     <corners android:radius="300dp"/>
     <gradient
         android:startColor = "#D6ECCC"
@@ -8,6 +8,8 @@
         android:endColor = "#579133"
         android:angle = "180"
         android:type = "linear" />
+
+
 </shape>
     <!-- background: linear-gradient(180deg, #D6ECCC -42.59%, #9CED6B -42.58%, #579133 120.37%);
 d-->
