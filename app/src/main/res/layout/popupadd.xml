@@ -6,6 +6,4 @@
     android:orientation="vertical"
     android:padding="25dp">
 
-    <!-- Ajoutez le contenu personnalisé de votre boîte de dialogue ici si nécessaire -->
-
 </LinearLayout>
