@@ -44,7 +44,9 @@
             app:iconPadding="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription=" "></ImageButton>
+            android:contentDescription=" "
+            android:clickable="true"
+            android:onClick="onClick"></ImageButton>
 
         <TextView
             android:id="@+id/textView21"
@@ -128,7 +130,9 @@
             app:iconPadding="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription=" "></ImageButton>
+            android:contentDescription=" "
+            android:clickable="true"
+            android:onClick="onClick"></ImageButton>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -193,7 +197,9 @@
             app:iconPadding="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription=" "></ImageButton>
+            android:contentDescription=" "
+            android:clickable="true"
+            android:onClick="onClick"></ImageButton>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
