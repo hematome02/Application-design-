@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main);
     }
+    // fonction pour aller vers la page d'une plante
     fun onClick(view: View) {
-        // Créer une intention pour naviguer vers la nouvelle mise en page (PeperomiaActivity)
         val intent = Intent(this, PeperomiaActivity::class.java)
         startActivity(intent)
     }
